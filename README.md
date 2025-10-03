@@ -140,3 +140,12 @@ Winner: DPO/Base/Both
 - **Автоматизация**: Автосохранение, ранняя остановка, warmup scheduling
 - **Win rate оценка**: Оценка качества моделей в формате соревнования
 
+## Ссылки
+
+https://arxiv.org/abs/2305.18290
+
+https://towardsdatascience.com/llms-for-everyone-running-the-llama-13b-model-and-langchain-in-google-colab-68d88021cf0b/
+
+https://habr.com/ru/articles/791966/
+
+https://arxiv.org/abs/1902.00751
