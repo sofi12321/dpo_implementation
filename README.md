@@ -130,7 +130,7 @@ run_eval(
 ```
 Number of wins of the base model: X
 Number of wins of the DPO model: Y
-Winner: DPO/Base/Both
+Winner: DPO/Base/Answers/Both
 ```
 
 ## Особенности реализации
