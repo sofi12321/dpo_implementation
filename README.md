@@ -32,10 +32,10 @@ src/
 
 ```bash
 pip -q install -r requirements.txt
-!CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip3 -q install llama-cpp-python
-!pip3 -q install huggingface-hub
-!pip3 -q install sentence-transformers langchain langchain-experimental
-!huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir /content --local-dir-use-symlinks False
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip3 -q install llama-cpp-python
+pip3 -q install huggingface-hub
+pip3 -q install sentence-transformers langchain langchain-experimental
+huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir /content --local-dir-use-symlinks False
 ```
 
 ### Пример использования
